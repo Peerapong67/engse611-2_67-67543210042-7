@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>JavaScript Event Handling</title>
+</head>
+
+<body>
+    <h1>javaScript Event Handling</h1>
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide active">
+                <img src="https://picsum.photos/id/10/600/400" alt="Image 1">
+            </div>
+            <div class="slide">
+                <img src="https://picsum.photos/id/11/600/400" alt="Image 2">
+            </div>
+            <div class="slide">
+                <img src="https://picsum.photos/id/12/600/400" alt="Image 3">
+            </div>
+            <div class="slide">
+                <img src="https://picsum.photos/id/13/600/400" alt="Image 4">
+            </div>
+        </div>
+
+        <button class="slider-btn prev">&#10094;</button>
+        <button class="slider-btn next">&#10095;</button>
+
+        <div class="dots">
+            <span class="dot active" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+            <span class="dot" data-index="3"></span>
+        </div>
+    </div>
+    <div class="thumbnails">
+        <span class="thumb" data-index ="0"><img src="https://picsum.photos/id/10/100/100" alt="Thumbnail 1"></span>
+        <span class="thumb" data-index ="1"><img src="https://picsum.photos/id/11/100/100" alt="Thumbnail 2"></span>
+        <span class="thumb" data-index ="2"><img src="https://picsum.photos/id/12/100/100" alt="Thumbnail 3"></span>
+        <span class="thumb" data-index ="3"><img src="https://picsum.photos/id/13/100/100" alt="Thumbnail 4"></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
